@@ -871,3 +871,4 @@ async def init_mq() -> None:
 
 async def close_mq() -> None:
     await MQ_CLIENT.stop()
+    
